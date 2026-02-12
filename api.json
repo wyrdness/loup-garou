@@ -1,0 +1,786 @@
+{
+  "category": "SHAPESHIFTER",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/loup-garou",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "loup-garou",
+    "name": "Loup-Garou",
+    "aliases": [
+      {
+        "name": "Rougarou",
+        "language": "Louisiana French Creole",
+        "region": "Louisiana, USA",
+        "meaning": "Creole pronunciation of loup-garou"
+      },
+      {
+        "name": "Lougarou",
+        "language": "Haitian Creole",
+        "region": "Haiti",
+        "meaning": "Haitian variant spelling"
+      },
+      {
+        "name": "Lugaru",
+        "language": "French Creole",
+        "region": "Lesser Antilles",
+        "meaning": "Creole variant"
+      },
+      {
+        "name": "Le Loup-Garou",
+        "language": "French",
+        "region": "France, Quebec, Louisiana",
+        "meaning": "The werewolf (formal French)"
+      },
+      {
+        "name": "The Werewolf",
+        "language": "English",
+        "region": "Louisiana",
+        "meaning": "English translation"
+      },
+      {
+        "name": "Bête du Bayou",
+        "language": "Louisiana French",
+        "region": "Louisiana bayous",
+        "meaning": "Beast of the bayou"
+      }
+    ],
+    "category": "SHAPESHIFTER",
+    "subcategory": "Werewolf",
+    "tags": [
+      "werewolf",
+      "shapeshifter",
+      "cursed",
+      "lycanthropy",
+      "louisiana",
+      "caribbean",
+      "haitian",
+      "french-creole",
+      "african-diaspora",
+      "nocturnal",
+      "folklore",
+      "vodou"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A werewolf figure of French colonial and African diaspora origin found in Louisiana, Haiti, and the Francophone Caribbean. Unlike European werewolves, the loup-garou curse often has Catholic and Vodou connections, transforming victims for specific periods (often 101 days) and transferable through blood-letting.",
+      "full": "The Loup-Garou represents a unique fusion of French werewolf traditions, West African shapeshifting beliefs, and Catholic theology adapted through Louisiana Creole and Caribbean cultures. Emerging from French colonial settlements and the African slave trade, the loup-garou is both a cautionary figure enforcing religious and social norms and a manifestation of colonial anxieties. In Louisiana, the Rougarou prowls bayous and swamps, hunting those who break Lenten fasts or disobey Catholic law. In Haiti, the Lougarou connects to Vodou witchcraft, often appearing as a cursed individual who made pacts with dark spirits. The curse typically lasts 101 days and nights, and can be broken or transferred by drawing the creature's blood without revealing the act for a full year. The loup-garou embodies the complex cultural synthesis of the French colonial world, African spiritual systems, and Creole identity formation."
+    },
+    "etymology": {
+      "origin": "From French 'loup-garou' combining 'loup' (wolf) and 'garou' (from Frankish 'wer-wolf' meaning 'man-wolf'). The term evolved through Louisiana French and Haitian Creole, producing regional variants like Rougarou and Lougarou.",
+      "meaning": "Wolf-man, werewolf; one who changes from human to wolf form",
+      "first_use": "French medieval period (12th-13th century); transplanted to Louisiana and Caribbean 17th-18th century"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "SHAPESHIFTER",
+      "type": "Lycanthrope",
+      "subtype": "Cursed Werewolf",
+      "variant": "French Creole Werewolf"
+    },
+    "related_phenomena": [
+      {
+        "id": "werewolf",
+        "name": "European Werewolf",
+        "relationship": "ancestral",
+        "description": "French loup-garou tradition ancestral to Creole versions"
+      },
+      {
+        "id": "soucouyant",
+        "name": "Soucouyant",
+        "relationship": "cultural_cousin",
+        "description": "Caribbean shapeshifter; sometimes confused with loup-garou in Haiti"
+      },
+      {
+        "id": "skinwalker",
+        "name": "Skinwalker",
+        "relationship": "parallel",
+        "description": "North American shapeshifter from different cultural tradition"
+      },
+      {
+        "id": "wendigo",
+        "name": "Wendigo",
+        "relationship": "regional_neighbor",
+        "description": "Northern shapeshifter sharing some regional overlap in Canada"
+      },
+      {
+        "id": "dogman",
+        "name": "Dogman",
+        "relationship": "possible_confusion",
+        "description": "Modern cryptid sometimes confused with loup-garou sightings"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "human_form": {
+        "appearance": "Normal human appearance with possible subtle indicators",
+        "distinguishing_marks": [
+          "Pentagram mark on forehead (visible to those who know)",
+          "Excessive body hair",
+          "Nervous, secretive behavior during curse period",
+          "Avoidance of Catholic rituals",
+          "Sunken eyes, pallor during transformation period"
+        ],
+        "notes": "Under curse but appears mostly normal; may not even know they are cursed initially"
+      },
+      "transformed_form": {
+        "appearance": "Wolf-human hybrid or full wolf form",
+        "height": {
+          "min": 1.5,
+          "max": 2.4,
+          "unit": "meters",
+          "confidence": "low"
+        },
+        "coloration": [
+          "black",
+          "dark gray",
+          "brown",
+          "reddish-brown"
+        ],
+        "features": [
+          {
+            "feature": "Wolf head",
+            "description": "Elongated snout, sharp teeth, wolf-like eyes (often red or yellow)",
+            "frequency": "always"
+          },
+          {
+            "feature": "Bipedal or quadrupedal stance",
+            "description": "Can walk upright like human or on all fours like wolf",
+            "frequency": "common"
+          },
+          {
+            "feature": "Thick fur covering body",
+            "description": "Dense fur, often matted or wild-looking",
+            "frequency": "always"
+          },
+          {
+            "feature": "Clawed hands/paws",
+            "description": "Sharp claws capable of violence",
+            "frequency": "always"
+          },
+          {
+            "feature": "Glowing eyes",
+            "description": "Eyes that reflect light, often red or yellow glow",
+            "frequency": "common"
+          }
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "ability": "Shapeshifting",
+        "description": "Transforms from human to wolf-creature, usually at night",
+        "frequency": "nightly during curse period",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Enhanced strength",
+        "description": "Superhuman strength in wolf form",
+        "frequency": "always in transformed state",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Enhanced speed",
+        "description": "Runs faster than normal humans or wolves",
+        "frequency": "always in transformed state",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Enhanced senses",
+        "description": "Keen smell, hearing, and night vision",
+        "frequency": "always in transformed state",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Curse transference",
+        "description": "Can transfer curse by having blood drawn by another person",
+        "frequency": "once per curse period",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Memory retention",
+        "description": "Unlike some werewolves, may retain human consciousness and memories",
+        "frequency": "varies by account",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Tracking",
+        "description": "Can track specific individuals, especially those who broke religious vows",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "swamps",
+        "bayous",
+        "forests",
+        "rural areas",
+        "abandoned buildings",
+        "cemeteries"
+      ],
+      "diet": "Carnivorous; attacks livestock and humans (particularly those breaking religious rules)",
+      "patterns": [
+        "Hunts during full moon and curse period",
+        "Targets those who break Lenten fasts or Catholic rules (Louisiana)",
+        "May attack former friends or family unknowingly",
+        "Returns to human form by dawn",
+        "Often exhibits amnesia or confusion about night activities",
+        "Seeks victim who will draw blood to transfer curse"
+      ]
+    },
+    "vulnerabilities": [
+      {
+        "method": "Drawing blood",
+        "description": "Drawing loup-garou's blood transfers curse to blood-letter (if secret kept for 101 days)",
+        "effectiveness": "high (curse transfer)"
+      },
+      {
+        "method": "Revealing the secret",
+        "description": "If blood-letter reveals what they did before 101 days, curse returns to original victim",
+        "effectiveness": "breaks transference"
+      },
+      {
+        "method": "Fulfilling curse period",
+        "description": "Curse naturally ends after 101 days and nights if not transferred",
+        "effectiveness": "certain but slow"
+      },
+      {
+        "method": "Catholic sacraments",
+        "description": "Confession, communion, holy water may weaken or repel",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Salt circles",
+        "description": "Cannot cross salt lines",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Silver",
+        "description": "Silver weapons can harm or kill (European influence)",
+        "effectiveness": "high"
+      },
+      {
+        "method": "Fire",
+        "description": "Vulnerable to burning",
+        "effectiveness": "lethal"
+      }
+    ]
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Louisiana (USA), Haiti, and Francophone Caribbean islands. Found wherever French colonial influence mixed with African diaspora populations, particularly in areas with strong Catholic and Vodou syncretism.",
+      "continents": ["North America", "Caribbean"],
+      "countries": [
+        "United States (Louisiana)",
+        "Haiti",
+        "Martinique",
+        "Guadeloupe",
+        "Dominica",
+        "Saint Lucia",
+        "French Guiana",
+        "Canada (Quebec - historical)"
+      ],
+      "regions": [
+        "Louisiana Bayou Country",
+        "Acadiana Region",
+        "Greater New Orleans",
+        "Haiti (all regions)",
+        "Lesser Antilles",
+        "French Caribbean"
+      ]
+    },
+    "cultural_distribution": {
+      "primary": "Louisiana Creole and Cajun communities; Haitian communities",
+      "secondary": "Francophone Caribbean populations",
+      "influence": "French colonial, African diaspora, Catholic, Vodou syncretism"
+    },
+    "hotspots": [
+      {
+        "name": "Cajun Country (Acadiana)",
+        "location": {
+          "description": "Louisiana bayou region, especially around Lafayette and surrounding parishes",
+          "country": "United States",
+          "region": "Louisiana",
+          "coordinates": {
+            "latitude": 30.2241,
+            "longitude": -92.0198
+          }
+        },
+        "significance": "Strongest Rougarou traditions in Louisiana; annual Rougarou Fest",
+        "notes": "Core of Louisiana loup-garou folklore with extensive oral traditions"
+      },
+      {
+        "name": "New Orleans and Surrounding Swamps",
+        "location": {
+          "description": "Greater New Orleans area and surrounding wetlands",
+          "country": "United States",
+          "region": "Louisiana",
+          "coordinates": {
+            "latitude": 29.9511,
+            "longitude": -90.0715
+          }
+        },
+        "significance": "Urban and swamp loup-garou accounts; tourist folklore industry",
+        "notes": "Mix of historical accounts and contemporary commercialization"
+      },
+      {
+        "name": "Haiti",
+        "location": {
+          "description": "Throughout Haiti, especially rural areas",
+          "country": "Haiti",
+          "region": "Caribbean",
+          "coordinates": {
+            "latitude": 18.9712,
+            "longitude": -72.2852
+          }
+        },
+        "significance": "Lougarou traditions integrated with Vodou belief system",
+        "notes": "Often conflated with soucouyant; strong Vodou witch associations"
+      },
+      {
+        "name": "Martinique and Guadeloupe",
+        "location": {
+          "description": "French Caribbean islands",
+          "country": "France (overseas territories)",
+          "region": "Lesser Antilles",
+          "coordinates": {
+            "latitude": 14.6415,
+            "longitude": -61.0242
+          }
+        },
+        "significance": "French Caribbean loup-garou variants",
+        "notes": "Maintains strong French influence with Caribbean adaptations"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1700s",
+        "circa": true,
+        "source": "French colonial records and oral traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Colonial era through 19th century",
+          "description": "Strongest belief during French colonial period and early American Louisiana"
+        },
+        {
+          "period": "1900s-1950s",
+          "description": "Rural Louisiana and Caribbean communities maintained active traditions"
+        },
+        {
+          "period": "Contemporary (1990s-present)",
+          "description": "Cultural revival through festivals, tourism, and regional pride"
+        }
+      ],
+      "seasonal_patterns": "Most active during Lent (Catholic season); full moon periods; curse-specific 101-day cycles"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "The Loup-Garou originates from medieval French werewolf traditions (loup-garou) brought to North America by French colonists. These European beliefs merged with West African shapeshifting traditions (particularly Vodou and animist beliefs) brought by enslaved Africans, and were further shaped by Catholic Church influence in enforcing religious observance. The result is a uniquely Creole phenomenon reflecting French, African, and Catholic cultural synthesis.",
+      "earliest_accounts": "Medieval French loup-garou traditions (12th-15th century). Louisiana and Caribbean accounts begin appearing in 18th century colonial records and oral traditions.",
+      "folklore_connections": "Connected to French-European werewolf traditions, West African shapeshifter beliefs, Haitian Vodou practices, and Catholic morality enforcement."
+    },
+    "historical_context": {
+      "french_colonial_influence": "French settlers brought loup-garou beliefs from medieval European traditions, establishing them in Louisiana and Caribbean colonies from the 1600s onward.",
+      "slavery_and_african_influence": "Enslaved West Africans brought shapeshifting traditions and spiritual beliefs that merged with French werewolf concepts, creating syncretic Creole forms.",
+      "catholic_church_role": "The Catholic Church weaponized loup-garou folklore to enforce religious observance, particularly Lenten fasting and Sunday Mass attendance. Breaking religious rules risked becoming cursed.",
+      "haitian_vodou_syncretism": "In Haiti, loup-garou merged deeply with Vodou practice, becoming associated with witches (bòkò) who made pacts with dark spirits.",
+      "cajun_acadian_adaptation": "When Acadians were expelled from Canada (1755-1764), they brought loup-garou traditions to Louisiana where they evolved into the Rougarou.",
+      "social_control": "Loup-garou stories enforced community standards, discouraged nighttime wandering, protected children, and maintained Catholic religious discipline."
+    },
+    "timeline": [
+      {
+        "date": "1200s-1600s",
+        "event": "French loup-garou traditions established",
+        "significance": "Medieval French werewolf beliefs develop in Europe",
+        "source": "European folklore records"
+      },
+      {
+        "date": "1699",
+        "event": "French colonization of Louisiana begins",
+        "significance": "French settlers bring loup-garou traditions to Louisiana Territory",
+        "source": "Colonial records"
+      },
+      {
+        "date": "1700s",
+        "event": "African diaspora synthesis",
+        "significance": "Enslaved Africans merge shapeshifting beliefs with French werewolf traditions",
+        "source": "Oral traditions, ethnographic studies"
+      },
+      {
+        "date": "1755-1764",
+        "event": "Acadian Expulsion",
+        "significance": "Acadians bring loup-garou traditions from Canada to Louisiana, strengthening Cajun folklore",
+        "source": "Acadian historical records"
+      },
+      {
+        "date": "1804",
+        "event": "Haitian Independence",
+        "significance": "Post-independence Haiti maintains Lougarou traditions integrated with Vodou",
+        "source": "Haitian folklore studies"
+      },
+      {
+        "date": "1800s",
+        "event": "Rural Louisiana proliferation",
+        "significance": "Rougarou becomes deeply embedded in Cajun and Creole culture as cautionary figure",
+        "source": "Louisiana folklore collections"
+      },
+      {
+        "date": "1930s-1940s",
+        "event": "Academic documentation",
+        "significance": "Folklorists and anthropologists begin systematic recording of loup-garou traditions",
+        "source": "Federal Writers' Project, academic studies"
+      },
+      {
+        "date": "1974",
+        "event": "Reported Louisiana sightings surge",
+        "significance": "Series of rural Louisiana reports of Rougarou sightings in bayou areas",
+        "source": "Local news archives, folklore databases"
+      },
+      {
+        "date": "2012-present",
+        "event": "Rougarou Fest established",
+        "significance": "Annual festival in Houma, Louisiana celebrates Rougarou folklore and Cajun culture",
+        "source": "Festival records, cultural organizations"
+      },
+      {
+        "date": "2010s-present",
+        "event": "Cultural renaissance",
+        "significance": "Renewed interest in Creole and Cajun folklore; academic and artistic exploration",
+        "source": "Contemporary cultural productions"
+      }
+    ],
+    "modern_era": "The Loup-Garou/Rougarou remains a living tradition in Louisiana and Haiti. In Louisiana, annual festivals celebrate the creature as cultural heritage. Rural communities continue to share stories, while urban populations embrace it as regional identity. In Haiti, Lougarou beliefs persist in Vodou contexts. Contemporary discussions address the loup-garou's role in maintaining French Creole identity, Catholic cultural influence, and African diaspora spirituality."
+  },
+
+  "accounts": {
+    "historical": [
+      {
+        "date": "1765",
+        "account": "Acadian settlement reports",
+        "description": "Newly arrived Acadians in Louisiana report loup-garou encounters in bayou regions, warning communities about night dangers",
+        "source": "Colonial correspondence, oral histories",
+        "significance": "Early documentation of loup-garou in Louisiana"
+      },
+      {
+        "date": "1850s",
+        "account": "Plantation-era accounts",
+        "description": "Both enslaved and free Creole populations share loup-garou stories; used to keep children indoors at night",
+        "source": "WPA slave narratives, folklore collections",
+        "significance": "Shows cross-cultural acceptance of loup-garou belief"
+      },
+      {
+        "date": "1888",
+        "account": "Vermillion Parish encounter",
+        "description": "Farmer reports livestock attacks and sighting of wolf-man creature near swamp; community organizes protective measures",
+        "source": "Local parish records, newspaper accounts",
+        "significance": "Documented community response to suspected loup-garou"
+      },
+      {
+        "date": "1930s",
+        "account": "Federal Writers' Project documentation",
+        "description": "WPA workers record extensive loup-garou traditions from Louisiana Creole and Cajun informants",
+        "source": "Library of Congress WPA archives",
+        "significance": "Systematic preservation of oral traditions"
+      }
+    ],
+    "contemporary": [
+      {
+        "date": "1974",
+        "account": "Bayou sightings wave",
+        "description": "Multiple witnesses in Terrebonne and Lafourche parishes report large wolf-like creature walking upright near waterways",
+        "source": "Local newspapers, community reports",
+        "significance": "Modern resurgence of Rougarou sightings"
+      },
+      {
+        "date": "1990s",
+        "account": "Honey Island Swamp creature",
+        "description": "Reports of bipedal wolf-creature in Honey Island Swamp area, sometimes identified as Rougarou",
+        "source": "Cryptozoology reports, local accounts",
+        "significance": "Overlap between Rougarou folklore and cryptid sightings"
+      },
+      {
+        "date": "2000s-present",
+        "account": "Festival and cultural revival",
+        "description": "Community members share family stories and personal accounts at cultural events; tradition remains living",
+        "source": "Rougarou Fest testimonies, cultural documentation",
+        "significance": "Active folkloric tradition in contemporary Louisiana"
+      },
+      {
+        "date": "2010s",
+        "account": "Social media encounters",
+        "description": "Witnesses report Rougarou sightings on social media, sharing photos of tracks and damaged property",
+        "source": "Social media platforms, Louisiana folklore groups",
+        "significance": "Modern transmission of folklore tradition"
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Warning children to follow Lenten fasts or face loup-garou",
+        "Marking doors with crosses during Lent",
+        "Avoiding swamps and bayous at night during full moon",
+        "Carrying salt for protection",
+        "Keeping religious medals and prayers",
+        "Secret knowledge of curse transference (drawing blood)",
+        "Community warnings about suspicious individuals"
+      ],
+      "stories": [
+        "The disobedient child who breaks Lent becomes Rougarou",
+        "The cursed man who transfers his affliction to unsuspecting helper",
+        "The Rougarou who stalks those who skip Mass",
+        "The hunter who wounds a wolf that becomes human by morning",
+        "The 101-day curse and the secret that must be kept",
+        "The bòkò (Vodou witch) who becomes Lougarou through dark pact",
+        "The Rougarou trapped in salt circle until dawn"
+      ],
+      "beliefs": "The loup-garou serves as enforcer of Catholic morality and community standards. It punishes religious disobedience (missing Mass, breaking Lenten fasts), protects children by keeping them indoors, and maintains social cohesion through shared fear. The curse mechanism (101 days, blood-drawing transference) creates moral dilemmas about harming others to save oneself."
+    },
+    "african_diaspora": {
+      "origins": [
+        "West African shapeshifter traditions",
+        "Vodou spiritual beliefs (Haiti)",
+        "Animist shapeshifting concepts",
+        "African lycanthropy traditions (hyena-men, leopard-men)"
+      ],
+      "significance": "The loup-garou represents syncretism between European and African traditions. While the wolf form comes from French tradition, the spiritual mechanics—curse through supernatural forces, connections to witchcraft, transformative magic—reflect African cosmology. In Haiti, the Lougarou's integration with Vodou shows African belief systems adapting and persisting within Christian-dominated culture.",
+      "syncretism": "Blends French Catholic werewolf with African shapeshifter magic, creating uniquely Creole entity. Catholic elements (Lenten timing, Mass attendance) merge with African spiritual concepts (transformation, curses, witchcraft).",
+      "social_function": "Maintained cultural identity and spiritual agency for African diaspora populations under colonial oppression. Provided framework for explaining misfortune and enforcing community standards.",
+      "vodou_connection": "In Haitian Vodou, Lougarou associated with bòkò (sorcerers) who practice dark magic, making pacts with malicious spirits to gain shapeshifting power."
+    },
+    "french_creole_heritage": {
+      "louisiana_creole": "Integral to Louisiana Creole identity, representing cultural persistence despite Americanization. French language preservation maintains loup-garou/Rougarou terminology.",
+      "cajun_culture": "Central to Cajun folklore; Acadians brought and maintained traditions from French Canada. Rougarou represents Cajun cultural distinctiveness.",
+      "language": "French and Creole names (loup-garou, Rougarou, Lougarou) maintain linguistic heritage; stories traditionally told in French/Creole languages.",
+      "catholic_influence": "Deeply intertwined with Catholic practice; curse timing (Lent), triggers (missing Mass), and protections (holy water, confession) reflect Catholic cultural dominance."
+    },
+    "indigenous": {
+      "cultures": [
+        "Chitimacha",
+        "Houma",
+        "Choctaw (Louisiana)"
+      ],
+      "significance": "Some scholars argue indigenous Louisiana shapeshifter beliefs may have merged with French and African traditions, though documentation is limited",
+      "notes": "Indigenous contribution less documented but may include local shapeshifter concepts that influenced regional variations"
+    },
+    "popular_culture": {
+      "literature": [
+        "Anne Rice's vampire chronicles (New Orleans Gothic setting)",
+        "Charlaine Harris's Sookie Stackhouse novels (Louisiana supernatural)",
+        "Louisiana folklore collections by Alcée Fortier",
+        "Contemporary Cajun and Creole literature exploring heritage"
+      ],
+      "film_tv": [
+        "\"The Skeleton Key\" (2005) - Louisiana supernatural horror",
+        "\"True Blood\" (2008-2014) - Louisiana supernatural series",
+        "\"The Beast of the Bayou\" - documentary",
+        "\"MonsterQuest\" episodes on Rougarou",
+        "\"Loup-Garou\" (various independent films)"
+      ],
+      "festivals": [
+        "Rougarou Fest (Houma, Louisiana - annual)",
+        "Festivals Acadiens et Créoles (Lafayette)",
+        "Various Louisiana Halloween events featuring Rougarou"
+      ],
+      "art": [
+        "Cajun and Creole folk art depicting Rougarou",
+        "Mardi Gras costumes and masks",
+        "Louisiana swamp tour imagery",
+        "Contemporary Louisiana artists reclaiming folklore"
+      ],
+      "music": [
+        "Cajun and Zydeco songs referencing Rougarou",
+        "Louisiana folk music traditions",
+        "Contemporary Louisiana musicians using folklore"
+      ],
+      "other": [
+        "Swamp tour industry uses Rougarou narratives",
+        "Louisiana craft breweries (Rougarou beer)",
+        "Regional tourism marketing",
+        "Educational programs in Louisiana schools"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Alcée Fortier",
+        "affiliation": "Tulane University",
+        "contribution": "Early documentation of Louisiana Creole folklore including loup-garou traditions",
+        "period": "1880s-1910s"
+      },
+      {
+        "name": "Lyle Saxon",
+        "affiliation": "Louisiana WPA Federal Writers' Project",
+        "contribution": "Extensive collection of Louisiana folklore during 1930s-40s",
+        "period": "1930s-1940s"
+      },
+      {
+        "name": "Zora Neale Hurston",
+        "affiliation": "Independent ethnographer",
+        "contribution": "Documented Louisiana Hoodoo and folklore traditions including werewolf beliefs",
+        "period": "1920s-1930s"
+      },
+      {
+        "name": "Barry Jean Ancelet",
+        "affiliation": "University of Louisiana at Lafayette",
+        "contribution": "Contemporary documentation and preservation of Cajun folklore including Rougarou",
+        "period": "1970s-present"
+      },
+      {
+        "name": "Carolyn Morrow Long",
+        "affiliation": "Independent scholar",
+        "contribution": "Research on Louisiana Voodoo and folklore traditions",
+        "period": "1990s-present"
+      },
+      {
+        "name": "Maida Owens",
+        "affiliation": "Louisiana Folklife Program",
+        "contribution": "Documentation and preservation of Louisiana folklore traditions",
+        "period": "1980s-present"
+      },
+      {
+        "name": "Alfred Métraux",
+        "affiliation": "UNESCO",
+        "contribution": "Comprehensive study of Haitian Vodou including Lougarou beliefs",
+        "period": "1940s-1950s"
+      },
+      {
+        "name": "Maya Deren",
+        "affiliation": "Independent ethnographer/filmmaker",
+        "contribution": "Documentation of Haitian Vodou practices and folklore",
+        "period": "1940s-1950s"
+      }
+    ],
+    "academic_fields": [
+      "Folklore Studies",
+      "Louisiana Studies",
+      "Caribbean Studies",
+      "African Diaspora Studies",
+      "French Colonial Studies",
+      "Religious Studies (Catholicism, Vodou)",
+      "Anthropology",
+      "Cryptozoology"
+    ],
+    "ongoing_studies": "Contemporary research focuses on loup-garou as cultural identity marker for Louisiana Creole and Cajun populations, comparative werewolf traditions, French colonial legacy, African diaspora syncretism, and intersection with modern cryptid sightings. Digital humanities projects document regional variations and living oral traditions."
+  },
+
+  "protection_methods": {
+    "traditional": [
+      {
+        "method": "Catholic observance",
+        "description": "Faithfully observe Lent, attend Mass regularly, avoid breaking Catholic rules to prevent curse",
+        "effectiveness": "High (preventative)",
+        "cultural_origin": "Catholic Church enforcement"
+      },
+      {
+        "method": "Salt barriers",
+        "description": "Create salt lines at doorways and windows; loup-garou cannot cross",
+        "effectiveness": "High",
+        "cultural_origin": "European and African folk traditions"
+      },
+      {
+        "method": "Holy water and blessed items",
+        "description": "Sprinkle holy water at entrances; carry rosaries, religious medals, crosses",
+        "effectiveness": "Medium-High",
+        "cultural_origin": "Catholic tradition"
+      },
+      {
+        "method": "Avoiding night travel",
+        "description": "Stay indoors after dark, especially during full moon and Lent",
+        "effectiveness": "High (avoidance)",
+        "cultural_origin": "Community practice"
+      },
+      {
+        "method": "Drawing blood (curse transfer)",
+        "description": "If encountered, draw loup-garou's blood and keep secret for 101 days to transfer curse",
+        "effectiveness": "High but morally complex",
+        "cultural_origin": "Creole folklore"
+      },
+      {
+        "method": "Thirteen objects",
+        "description": "Place thirteen objects (coins, buttons, etc.) for loup-garou to count; must count until dawn",
+        "effectiveness": "Medium",
+        "cultural_origin": "European counting superstition"
+      },
+      {
+        "method": "Frogs and toads",
+        "description": "Loup-garou allegedly afraid of frogs; placing frog images or actual frogs may repel",
+        "effectiveness": "Low-Medium",
+        "cultural_origin": "Louisiana folk belief"
+      },
+      {
+        "method": "Silver weapons",
+        "description": "Silver bullets or blades can harm or kill loup-garou",
+        "effectiveness": "High (lethal)",
+        "cultural_origin": "European werewolf tradition"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "fortier-1895",
+      "type": "book",
+      "title": "Louisiana Folk-Tales",
+      "authors": ["Alcée Fortier"],
+      "publication": "Houghton, Mifflin and Company",
+      "date": "1895"
+    },
+    {
+      "id": "saxon-1945",
+      "type": "book",
+      "title": "Gumbo Ya-Ya: A Collection of Louisiana Folk Tales",
+      "authors": ["Lyle Saxon", "Edward Dreyer", "Robert Tallant"],
+      "publication": "Louisiana Library Commission",
+      "date": "1945"
+    },
+    {
+      "id": "metraux-1959",
+      "type": "book",
+      "title": "Voodoo in Haiti",
+      "authors": ["Alfred Métraux"],
+      "publication": "Oxford University Press",
+      "date": "1959",
+      "isbn": "978-0805270983"
+    },
+    {
+      "id": "ancelet-1994",
+      "type": "book",
+      "title": "Cajun and Creole Folktales: The French Oral Tradition of South Louisiana",
+      "authors": ["Barry Jean Ancelet"],
+      "publication": "University Press of Mississippi",
+      "date": "1994",
+      "isbn": "978-0878056248"
+    }
+  ]
+}
